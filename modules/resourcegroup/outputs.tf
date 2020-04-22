@@ -11,5 +11,5 @@ output "_instructions" {
 }
 
 output  "name"{
-  value="${azurerm_resource_group.dh.name}"
+  value=azurerm_resource_group.dh.name
 }
